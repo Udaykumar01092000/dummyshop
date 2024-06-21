@@ -1,0 +1,15 @@
+.starRating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filledStar {
+    color: #FFD700; /* Gold color for filled stars */
+    font-size: 20px;
+  }
+  
+  .emptyStar {
+    color: #dcdcdc; /* Light grey color for empty stars */
+    font-size: 20px;
+  }
+  

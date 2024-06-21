@@ -1,0 +1,55 @@
+.container-my-5 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card-mb-3 {
+    max-width: 850px; 
+    margin: 30px auto;
+}
+.heading{
+    text-align: center;
+    color: #D10024;
+}
+.smallImageThumbnail{
+    width: 100px;
+    height: 100px;
+}
+.smallImagesWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.smallImageDiv{
+    width: 33.33%;
+    margin: 5px 0px;
+}
+.img-fluid rounded-start{
+    height: 300px !important;
+}
+.cardtitle{
+    text-align: left;
+}
+.cardtext{
+    text-align: left;
+}
+.activeproductcard{
+    border: 2px #D10024;
+}
+.smallImageThumbnailactive{
+    border: 2px solid #D10024;
+    width: 80%;
+    height: 90%;
+    cursor: pointer;
+}
+.smallImageThumbnail{
+    width: 80%;
+    height: 90%;
+    cursor: pointer;
+}
+.cardheading{
+    color: #D10024;
+    font-weight: 700;
+}
+.cardtitle{
+    font-weight: 500;
+}
