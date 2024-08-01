@@ -45,10 +45,11 @@
   padding: 7px 0px;
 }
 .droplists{
-  color: #ffffff;  
+  color: #ffffff;
 }
 a.dropdownItem :hover{
   color: #ffffff;
+  cursor: pointer;
 }
 a.dropdownItem {
   color: #ffffff;
@@ -57,6 +58,7 @@ a.dropdownItem {
   padding: 0px 10px;
   display: flex;
   justify-content: flex-start;
+  cursor: pointer;
 }
 #thumbnail {
   width: 100%;

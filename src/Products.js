@@ -87,18 +87,18 @@ function Products() {
               Filter Products <i className="bi bi-funnel"></i>
             </button>
             <ul className={`dropdown-menu ${styles.dropdownMenu}`} aria-labelledby="dropdownMenuButton1">
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("")}>Show All Products</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("pricelowtohigh")}><b>Price : </b> Low to High</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("pricehightolow")}><b>Price : </b> High to Low</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("4.5rating")}><span style={{ fontWeight: "700" }}>Rating:</span> 4.5+ products</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("ratingHighToLow")}><span style={{ fontWeight: "700" }}>Rating:</span> High to Low</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("ratingLowToHigh")}><span style={{ fontWeight: "700" }}>Rating:</span> Low to High</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("laptops")}>Laptops</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("smartphones")}>Smart Phones</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("skincare")}>Skin Care</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("fragrances")}>Fragrances</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("groceries")}>Groceries</a></li>
-              <li><a className={styles.dropdownItem} href="#" onClick={() => showFilteredResult("home-decoration")}>Home Decoration</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("")}>Show All Products</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("pricelowtohigh")}><b>Price : </b> Low to High</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("pricehightolow")}><b>Price : </b> High to Low</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("4.5rating")}><span style={{ fontWeight: "700" }}>Rating:</span> 4.5+ products</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("ratingHighToLow")}><span style={{ fontWeight: "700" }}>Rating:</span> High to Low</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("ratingLowToHigh")}><span style={{ fontWeight: "700" }}>Rating:</span> Low to High</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("laptops")}>Laptops</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("smartphones")}>Smart Phones</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("skincare")}>Skin Care</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("fragrances")}>Fragrances</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("groceries")}>Groceries</a></li>
+              <li><a className={styles.dropdownItem} onClick={() => showFilteredResult("home-decoration")}>Home Decoration</a></li>
             </ul>
           </div>
         </div>

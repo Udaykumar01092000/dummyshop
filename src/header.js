@@ -2,9 +2,7 @@ import React, { useState, lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route, NavLink, Navigate } from 'react-router-dom';
 import App from './App';
 import Home from './home';
-import About from './About';
 import styles from './navcss.style.module.css';
-import ProductCard from './ProductCard';
 const ProductSpec = lazy(() => import("./productspec"));
 const Products = lazy(() => import("./Products"));
 const gifUrl = process.env.PUBLIC_URL + '/gallery/loader.gif';
@@ -36,7 +34,6 @@ function Header() {
             ) : (
               <button onClick={() => {setIsLoggedIn(true); toggleMenu();}} className={styles.login}>Login</button>
             )}
-            {/* <b className={styles.logstatus}>LoginStatus = {JSON.stringify(isLoggedIn)}</b> */}
           </div>
         </div>
       </div>
